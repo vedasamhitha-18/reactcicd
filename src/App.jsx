@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+
 import './App.css'
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h1>Hi this is GitAction Experiment</h1>
-      <h1>Version 2 of my</h1>
+      <h1> Hii this is git action experiment</h1>
+      <h2>Version 1 of my project</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
